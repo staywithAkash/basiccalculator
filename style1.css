@@ -1,0 +1,28 @@
+.container{
+    background-image: linear-gradient(45deg,rgb(132, 203, 224),rgb(47, 123, 181));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.btn{
+    height: 4rem;
+    width: 4rem;
+    padding: 0%;
+    margin: 0.2rem;
+    border: 0.1rem solid black;
+    border-radius: 10px;    
+}
+.btn:hover{
+    background-color: rgb(110, 98, 98);
+}
+
+.row{
+    margin: 0.5rem 0 0 0;
+}
+input[type=text]{
+    padding: 74px;
+    width: 18rem;
+    box-sizing: border-box;
+
+}
