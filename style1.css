@@ -1,9 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container{
     background-image: linear-gradient(45deg,rgb(132, 203, 224),rgb(47, 123, 181));
     display: flex;
+    width: 30%;
+    height: 98vh;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     
+}
+#textarea{
+    width: 17rem;
+    height: 6rem;
 }
 .btn{
     height: 4rem;
@@ -25,4 +38,9 @@ input[type=text]{
     width: 18rem;
     box-sizing: border-box;
 
+}
+@media only screen and (max-width:200px){
+    body{
+        background-color: rgb(159, 100, 143);
+    }
 }
